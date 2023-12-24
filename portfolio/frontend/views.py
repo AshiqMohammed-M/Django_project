@@ -12,5 +12,8 @@ def index(request):
 def portfolio(request):
     return render(request,'frontend/index.html')
 
+def submitform(request):
+    return render(request,'frontend/submitform.html')
+
 
 
